@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Footer.css'
 import { assets } from '../../assets/assets'
 
@@ -24,13 +24,13 @@ const Footer = () => {
             <li>Privacy policy</li>
           </ul>
         </div>
-        <div className='footer-content-right'>
+        {/* <div className='footer-content-right'>
         <h2>GET IN TOUCH</h2>
         <ul>
            <li>+91 8830699474</li>
           
         </ul>
-        </div>
+        </div> */}
       </div>
       <hr />
      <p className='footer-copyright'>Copyright 2024 @ Tomato.com - All Right Reserved.</p>
